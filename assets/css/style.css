@@ -1,5 +1,11 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: rgb(22, 131, 89);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Funcionalidad Aparecer y Desaparecer */
@@ -13,6 +19,6 @@ body {
 
 .map {
   width: auto;
-  height: 50vh;
+  height: 40vh;
   position: relative;
 }

@@ -30,7 +30,7 @@ function initMap() {
       types: userSearch
     };
 
-    let service = new google.maps.places.PlacesService(map);
+    const service = new google.maps.places.PlacesService(map);
     service.nearbySearch(request, function(results, status) {
       if(status === google.maps.places.PlacesServiceStatus.OK) {
         for (let i = 0; i < results.length; i++) {
