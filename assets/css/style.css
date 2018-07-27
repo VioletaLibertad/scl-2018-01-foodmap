@@ -17,8 +17,25 @@ body {
   display: block;
 }
 
+/* Tamaño y posicion del mapa */
 .map {
   width: auto;
   height: 40vh;
   position: relative;
+}
+
+/* Imagen inicial: Loader */
+#loader-image {
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  z-index: 1;
+  margin: -75px 0 0 5px;
+  border: 16px solid #3f5f40;
+  border-radius: 50%;
+  border-top: 16px solid #452342;
+  width: 15em;
+  height: 15em;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
 }

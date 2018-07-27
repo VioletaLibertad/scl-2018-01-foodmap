@@ -14,14 +14,14 @@
 
 <body>
   <!-- Loader -->
-  <div class="loader" onload="loading()">
-    <div class="logo">
-      <img src="assets/img/Foodmap.png" alt="loader-image">
+  <div id="loader" onload="setTimeout()">
+    <div class="logo text-center mt-3">
+      <img class="img-fluid mx-auto d-block" src="assets/img/Foodmap.png" alt="loader-image">
+      <img class="img-fluid mx-auto d-block" src="assets/img/loader.gif" alt="loader-animation">
     </div>
-    <div id="loader-image"></div>
   </div>
   <!-- Main Page -->
-  <div class="mainPage disappear">
+  <div id="mainPage" class="disappear">
     <header>
       <h3 class="font-weight-bold text-center">
         Foodmap
