@@ -1,0 +1,15 @@
+{
+  "name": "foodmap-reloaded",
+  "version": "1.0.0",
+  "description": "A new version of the good old Foodmap, but now with all the cool stuff",
+  "main": "controller.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "food",
+    "search"
+  ],
+  "author": "Violeta Libertad",
+  "license": "ISC"
+}

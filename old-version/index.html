@@ -8,7 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>Foodmap</title>
 </head>
 
@@ -16,14 +16,14 @@
   <!-- Loader -->
   <div id="loader" onload="setTimeout()">
     <div class="logo text-center mt-3">
-      <img class="img-fluid mx-auto d-block" src="src/img/Foodmap.png" alt="loader-image">
-      <img class="img-fluid mx-auto d-block" src="src/img/loader.gif" alt="loader-animation">
+      <img class="img-fluid mx-auto d-block" src="assets/img/Foodmap.png" alt="loader-image">
+      <img class="img-fluid mx-auto d-block" src="assets/img/loader.gif" alt="loader-animation">
     </div>
   </div>
   <!-- Main Page -->
   <div id="mainPage" class="disappear">
     <header class="text-center mx-auto">
-      <img src="src/img/logo-small.png" id="logo-header" alt="logo-header">
+      <img src="assets/img/logo-small.png" id="logo-header" alt="logo-header">
     </header>
     <div id="map-container" class="map"></div>
     <div class="row">
@@ -45,9 +45,8 @@
     crossorigin="anonymous"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZlp8PpWkeXo5EIOqLpPU-CFlszP8pt6k&libraries=places&callback=initMap">
   </script>
-  <script src="src/js/controller.js"></script>
-  <script src="src/js/model.js"></script>
-  <script src="src/js/view.js"></script>
+  <script src="assets/js/loader.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
