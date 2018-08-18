@@ -14,7 +14,7 @@
 
 <body>
   <!-- Loader -->
-  <div id="loader" onload="setTimeout()">
+  <div id="loader" onload="setTimeout()" class="show">
     <div class="logo text-center mt-3">
       <img class="img-fluid mx-auto d-block" src="src/img/Foodmap.png" alt="loader-image">
       <img class="img-fluid mx-auto d-block" src="src/img/loader.gif" alt="loader-animation">
@@ -30,7 +30,7 @@
       <div class="col-sm-6 text-center mx-auto">
         <h5>Te ataca el hambre? Busca que opciones hay cerca tuyo:</h5>
         <input id="userSearch" class="form-control" type="text" placeholder="Encontrar algo rico...">
-        <button id="searchBtn" class="btn btn-info mt-2" >Buscar</button>
+        <button id="searchBtn" onclick="initMap()" class="btn btn-info mt-2" >Buscar</button>
       </div>
     </div>
   </div>
